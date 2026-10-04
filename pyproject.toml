@@ -48,8 +48,8 @@ test = [
 eroll-transliterate = "eroll.transliterate_rolls:cli"
 
 [project.urls]
-Homepage = "https://github.com/in-rolls/eroll_transliteration"
-Repository = "https://github.com/in-rolls/eroll_transliteration"
+Homepage = "https://github.com/in-rolls/electoral_rolls_transliteration"
+Repository = "https://github.com/in-rolls/electoral_rolls_transliteration"
 
 # Use the local indicate checkout for development. Drop this once indicate is on PyPI.
 [tool.uv.sources]
