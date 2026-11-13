@@ -3,7 +3,7 @@
 Some states ship the *same* roll in two languages (e.g. Kerala: Malayalam yearly files +
 an English ``all_clean``). Joining them on the elector ``id`` yields native->English pairs
 straight from the official roll -- authoritative spellings, no LLM. This is the cross-file
-analogue of :func:`extract_pairs`: per id-matched row we align each field's native runs
+analog of :func:`extract_pairs`: per id-matched row we align each field's native runs
 (``[script]+``) with the English Latin runs (``[A-Za-z]+``); equal counts zip into pairs,
 ambiguous tokens collapse to the modal English.
 
